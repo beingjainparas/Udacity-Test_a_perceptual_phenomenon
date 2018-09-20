@@ -19,7 +19,7 @@ Followed [these instructions](https://docs.google.com/document/d/1-OkpZLjG_kX9J6
 
 
 # Project Rubics
-(https://review.udacity.com/#!/rubrics/71/view)
+[Check Here](https://review.udacity.com/#!/rubrics/71/view)
 
 # Extra Links that halped me solve the project are:
 * here
