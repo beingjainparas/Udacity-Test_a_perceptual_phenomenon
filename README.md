@@ -14,7 +14,7 @@ This project helped me learn the basic concepts of statistics, including:
 ## Why is this Important to my Career?
 This project is focused on statistics, including designing an experiment and testing a hypothesis. Using statistics to draw valid conclusions about data is an important part of a data analyst's work. When you see a company release a new feature, what do you think went into the decision making? Typically, a business has a goal they want to achieve - for any educational institute, it may mean increased enrollments. They spend a long time user testing and A/B testing to make sure trials of potential products indicate they would get the outcome they wanted.
 
-# Project Overview: How did I Complete this Project?
+# Project Details: How did I Complete this Project?
 Followed [these instructions](https://docs.google.com/document/d/1-OkpZLjG_kX9J6LIQ5IltsqMzVWjh36QpnP2RYpVdPU/pub?embedded=True) and created a pdf/html document answering the questions. These document formats are compatible across a broad range of computers and browsers and are one of the surest ways of making sure that my intents are received properly.
 
 
