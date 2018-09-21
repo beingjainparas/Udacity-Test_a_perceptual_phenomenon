@@ -1,38 +1,141 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Udacity-Test_a_perceptual_phenomenon</title>
-</head>
-<body>
-<h1>Statistics: The Science of Decisions Project Instructions and Answers</h1><hr>
-<h2>Background Information</h2><hr>
-<p>In a Stroop task, participants are presented with a list of words, with each word displayed in a color of ink. The participant’s task is to say out loud the color of the ink in which the word is printed. The task has two conditions: a congruent words condition, and an incongruent words condition. In the congruent words condition, the words being displayed are color words whose names match the colors in which they are printed: for example RED, BLUE. In the incongruent words condition, the words displayed are color words whose names do not match the colors in which they are printed: for example PURPLE, ORANGE. In each case, we measure the time it takes to name the ink colors in equally-sized lists. Each participant will go through and record a time from each condition.</p>
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<h2>Questions For Investigation</h2><hr>
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-<h3>What is our independent variable? What is our dependent variable?</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis eu lacus a viverra. Maecenas lobortis mauris id nibh ullamcorper, at vehicula velit aliquet. Suspendisse venenatis mauris ut lobortis tempor. Phasellus orci justo, faucibus ut ornare euismod, fermentum vitae tellus. Praesent fringilla accumsan sapien eu eleifend. Aenean facilisis gravida nibh nec malesuada. Fusce vestibulum efficitur augue, non elementum lorem malesuada nec. Etiam sodales nulla eros, porta dignissim dui mollis id. Vestibulum accumsan ante ac aliquet placerat. Suspendisse rhoncus erat rhoncus odio euismod sollicitudin. Pellentesque dictum erat at sapien feugiat aliquam.</p>
+        <title>Udacity-Test_a_perceptual_phenomenon</title>
+    </head>
+    <body>
+        <div class="container">
 
-<h3>What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.</h3>
-<p><b>Note:</b>Now it’s your chance to try out the Stroop task for yourself. Go to this link, which has a Java-based applet for performing the Stroop task. Record the times that you received on the task (you do not need to submit your times to the site.) Now, download this dataset which contains results from a number of participants in the task. Each row of the dataset contains the performance for one participant, with the first number their results on the congruent task and the second number their performance on the incongruent task.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis eu lacus a viverra. Maecenas lobortis mauris id nibh ullamcorper, at vehicula velit aliquet. Suspendisse venenatis mauris ut lobortis tempor. Phasellus orci justo, faucibus ut ornare euismod, fermentum vitae tellus. Praesent fringilla accumsan sapien eu eleifend. Aenean facilisis gravida nibh nec malesuada. Fusce vestibulum efficitur augue, non elementum lorem malesuada nec. Etiam sodales nulla eros, porta dignissim dui mollis id. Vestibulum accumsan ante ac aliquet placerat. Suspendisse rhoncus erat rhoncus odio euismod sollicitudin. Pellentesque dictum erat at sapien feugiat aliquam.</p>
+            <h1 class="display-4">Statistics: The Science of Decisions Project Instructions and Answers</h1><hr>
 
-<h3>Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis eu lacus a viverra. Maecenas lobortis mauris id nibh ullamcorper, at vehicula velit aliquet. Suspendisse venenatis mauris ut lobortis tempor. Phasellus orci justo, faucibus ut ornare euismod, fermentum vitae tellus. Praesent fringilla accumsan sapien eu eleifend. Aenean facilisis gravida nibh nec malesuada. Fusce vestibulum efficitur augue, non elementum lorem malesuada nec. Etiam sodales nulla eros, porta dignissim dui mollis id. Vestibulum accumsan ante ac aliquet placerat. Suspendisse rhoncus erat rhoncus odio euismod sollicitudin. Pellentesque dictum erat at sapien feugiat aliquam.</p>
+            <h2 class="text-primary">Background Information</h2><hr>
+            <p class="lead">In a Stroop task, participants are presented with a list of words, with each word displayed in a color of ink. The participant’s task is to say out loud the color of the ink in which the word is printed. The task has two conditions: a congruent words condition, and an incongruent words condition. In the congruent words condition, the words being displayed are color words whose names match the colors in which they are printed: for example <span class="text-danger">RED</span>, <span class="text-primary">BLUE</span>. In the incongruent words condition, the words displayed are color words whose names do not match the colors in which they are printed: for example <span class="text-success">PURPLE</span>, <span class="text-warning">ORANGE</span>. In each case, we measure the time it takes to name the ink colors in equally-sized lists. Each participant will go through and record a time from each condition.</p>
 
-<h3>Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the plot or plots.</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis eu lacus a viverra. Maecenas lobortis mauris id nibh ullamcorper, at vehicula velit aliquet. Suspendisse venenatis mauris ut lobortis tempor. Phasellus orci justo, faucibus ut ornare euismod, fermentum vitae tellus. Praesent fringilla accumsan sapien eu eleifend. Aenean facilisis gravida nibh nec malesuada. Fusce vestibulum efficitur augue, non elementum lorem malesuada nec. Etiam sodales nulla eros, porta dignissim dui mollis id. Vestibulum accumsan ante ac aliquet placerat. Suspendisse rhoncus erat rhoncus odio euismod sollicitudin. Pellentesque dictum erat at sapien feugiat aliquam.</p>
+            <h2 class="text-primary">Questions For Investigation</h2><hr>
 
-<h3>Now, perform the statistical test and report your results. What is your confidence level and your critical statistic value? Do you reject the null hypothesis or fail to reject it? Come to a conclusion in terms of the experiment task. Did the results match up with your expectations?</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis eu lacus a viverra. Maecenas lobortis mauris id nibh ullamcorper, at vehicula velit aliquet. Suspendisse venenatis mauris ut lobortis tempor. Phasellus orci justo, faucibus ut ornare euismod, fermentum vitae tellus. Praesent fringilla accumsan sapien eu eleifend. Aenean facilisis gravida nibh nec malesuada. Fusce vestibulum efficitur augue, non elementum lorem malesuada nec. Etiam sodales nulla eros, porta dignissim dui mollis id. Vestibulum accumsan ante ac aliquet placerat. Suspendisse rhoncus erat rhoncus odio euismod sollicitudin. Pellentesque dictum erat at sapien feugiat aliquam.</p>
+            <ol>
+                <h3><li>
+                    What is our independent variable? What is our dependent variable?
+                </li></h3>
+                <p>
+                    <dl>
+                        <dt>Independent Variable:</dt>
+                        <dd>The two conditions: a congruent words condition, and an incongruent words condition are our independent variable.</dd>
+                        <dt>Dependent Variable:</dt>
+                        <dd>The time it takes to name the ink colors in equally-sized lists is our dependent variable.</dd>
+                    </dl>
+                </p>
 
-<h3>Optional: What do you think is responsible for the effects observed? Can you think of an alternative or similar task that would result in a similar effect?</h3>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent sagittis eu lacus a viverra. Maecenas lobortis mauris id nibh ullamcorper, at vehicula velit aliquet. Suspendisse venenatis mauris ut lobortis tempor. Phasellus orci justo, faucibus ut ornare euismod, fermentum vitae tellus. Praesent fringilla accumsan sapien eu eleifend. Aenean facilisis gravida nibh nec malesuada. Fusce vestibulum efficitur augue, non elementum lorem malesuada nec. Etiam sodales nulla eros, porta dignissim dui mollis id. Vestibulum accumsan ante ac aliquet placerat. Suspendisse rhoncus erat rhoncus odio euismod sollicitudin. Pellentesque dictum erat at sapien feugiat aliquam.</p>
+                <h3><li>
+                    What is an appropriate set of hypotheses for this task? What kind of statistical test do you expect to perform? Justify your choices.
+                </li></h3>
+                <div class="alert alert-info" role="alert">
+                    <h4 class="alert-heading">Note:</h4>
+                    <p>Now it’s your chance to try out the Stroop task for yourself. Go to <a href="https://www.google.com/url?q=https://faculty.washington.edu/chudler/java/ready.html&sa=D&ust=1537520299277000">this link</a>, which has a Java-based applet for performing the Stroop task. Record the times that you received on the task (you do not need to submit your times to the site.) Now, download this <a href="https://www.google.com/url?q=https://drive.google.com/file/d/0B9Yf01UaIbUgQXpYb2NhZ29yX1U/view?usp%3Dsharing&sa=D&ust=1537520299277000">dataset</a> which contains results from a number of participants in the task. Each row of the dataset contains the performance for one participant, with the first number their results on the congruent task and the second number their performance on the incongruent task.</p>
+                </div>
+                <p>
+                    <dl>
+                        <dt>Null Hypothesis: H<sub>O</sub>: &mu;<sub>c</sub> = &mu;<sub>ic</sub></dt>
+                        <ul>
+                            <li>
+                                <dd><b>H<sub>O</sub>:</b> No change in time to name the ink colors in equally-sized lists between the two conditions: a congruent words condition, and an incongruent words condition.</dd>
+                            <li>
+                                <dd><b>&mu;<sub>c</sub>:</b> The population mean for the time it takes to name the ink colors in congruent words condition.</dd>
+                            </li>
+                            </li>
+                            <li>
+                                <dd><b>&mu;<sub>ic</sub>:</b> The population mean for the time it takes to name the ink colors in incongruent words condition.</dd>
+                            </li>
+                        </ul>
 
-<h2>Extra Links that halped me solve the project are:</h2><hr>
-<p>
-    <a href="https://stackoverflow.com/questions/8446218/how-to-see-an-html-page-on-github-as-a-normal-rendered-html-page-to-see-preview">https://stackoverflow.com/questions/8446218/how-to-see-an-html-page-on-github-as-a-normal-rendered-html-page-to-see-preview</a><br>
-    <a href="https://www.lipsum.com/feed/html">https://www.lipsum.com/feed/html</a>
-</p>
-</body>
+                        <dt>Alternate Hypothesis: H<sub>A</sub>: &mu;<sub>c</sub> < &mu;<sub>ic</sub></dt>
+                        <ul>
+                            <li>
+                                <dd><b>H<sub>A</sub>:</b> The time it takes to name the ink colors in equally-sized lists of an incongruent words conditionis is more then that of congruent words condition.</dd>
+                            </li>
+                            <li>
+                                <dd><b>&mu;<sub>c</sub>:</b> The population mean for the time it takes to name the ink colors in congruent words condition.</dd>
+                            </li>
+                            <li>
+                                <dd><b>&mu;<sub>ic</sub>:</b> The population mean for the time it takes to name the ink colors in incongruent words condition.</dd>
+                            </li>
+                        </ul>
+
+                        <dt>Statistical Test: We will conduct a directional one tailed dependent t-Test.</dt>
+                        <ul>
+                            <li>
+                                <dd>The size of our sample is less than 30 and since we dont know the population standard deviation we will conduct a t-test with 95% confidence level.</dd>
+                                <dd>We assume that the distributions are normal and also we will be comparing two dependent samples.</dd>
+                            </li>
+                        </ul>
+                    </dl>
+                </p>
+
+                <h3><li>Report some descriptive statistics regarding this dataset. Include at least one measure of central tendency and at least one measure of variability.</li></h3>
+                <p>Here is a <a href="https://docs.google.com/spreadsheets/d/1KIm0Zjx2k0ilkhzbT4hWv_P7ob_zBpjcibtIeHz0cf8/edit?usp=sharing">link</a> to google sheet where I calculated some descriptive statistics in which I included one measure of central tendency(mean) and one measure of variability(standard deviation).</p>
+
+                <h3><li>Provide one or two visualizations that show the distribution of the sample data. Write one or two sentences noting what you observe about the plot or plots.</li></h3>
+                <p>Here is a <a href="https://docs.google.com/spreadsheets/d/1KIm0Zjx2k0ilkhzbT4hWv_P7ob_zBpjcibtIeHz0cf8/edit?usp=sharing">link</a> to google sheet where I visualized distribution of the sample data.</p>
+                <dl>
+                    <dt>
+                        Notes on observation of the plots:
+                    </dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                In the concurrent histogram, more number of subjects lies in the range of 9-17 seconds time range, whereas in the inconcurrent histogram, more number of subjects lies in the range of 20-25 seconds time range.
+                            </li>
+                            <li>
+                                Both of this histograms are more or less normally distributed.
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <h3><li>Now, perform the statistical test and report your results. What is your confidence level and your critical statistic value? Do you reject the null hypothesis or fail to reject it? Come to a conclusion in terms of the experiment task. Did the results match up with your expectations?</li></h3>
+                <p>Here is a <a href="https://docs.google.com/spreadsheets/d/1KIm0Zjx2k0ilkhzbT4hWv_P7ob_zBpjcibtIeHz0cf8/edit?usp=sharing">link</a> to google sheet where I performed the statistical test and report my results.</p>
+                <dl>
+                    <dt>
+                        Conclusion on observation of the statistics:
+                    </dt>
+                    <dd>
+                        <ul>
+                            <li>
+                                So the t-Statistic value(-8.020706944) is less then our t-Critical value(-2.069) for a one tail test with confidence level of 95%, So we can reject our null hypothesis.
+                            </li>
+                            <li>
+                                So I can now conclude that the results match with our expectations that it takes less time to do the congruent task than it does to do the incongruent task.
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+
+                <h3><li>Optional: What do you think is responsible for the effects observed? Can you think of an alternative or similar task that would result in a similar effect?</li></h3>
+                <p>I think the human brain is responsible for the effects observed.</p>
+                <p>I can think of a coloured number test.</p>
+            </ol>
+
+            <h2 class="text-primary">Extra Links that halped me solve the project are:</h2><hr>
+            <p>
+                <a href="https://stackoverflow.com/questions/8446218/how-to-see-an-html-page-on-github-as-a-normal-rendered-html-page-to-see-preview">https://stackoverflow.com/questions/8446218/how-to-see-an-html-page-on-github-as-a-normal-rendered-html-page-to-see-preview</a><br>
+                <a href="https://en.wikipedia.org/wiki/Stroop_effect">https://en.wikipedia.org/wiki/Stroop_effect</a><br>
+                <a href="https://review.udacity.com/#!/rubrics/71/view">https://review.udacity.com/#!/rubrics/71/view</a><br>
+                <a href="http://getbootstrap.com/">http://getbootstrap.com/</a><br>
+                <a href="https://brandalyzer.blog/2010/12/05/difference-between-z-test-f-test-and-t-test/">https://brandalyzer.blog/2010/12/05/difference-between-z-test-f-test-and-t-test/</a><br>
+                <a href="https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg">https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg</a><br>
+            </p>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
 </html>

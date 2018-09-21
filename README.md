@@ -24,3 +24,8 @@ Followed [these instructions](https://docs.google.com/document/d/1-OkpZLjG_kX9J6
 # Extra Links that halped me solve the project are:
 * https://stackoverflow.com/questions/8446218/how-to-see-an-html-page-on-github-as-a-normal-rendered-html-page-to-see-preview
 * https://www.lipsum.com/feed/html
+* https://en.wikipedia.org/wiki/Stroop_effect
+* https://review.udacity.com/#!/rubrics/71/view
+* http://getbootstrap.com/
+* https://brandalyzer.blog/2010/12/05/difference-between-z-test-f-test-and-t-test/
+* https://s3.amazonaws.com/udacity-hosted-downloads/t-table.jpg
